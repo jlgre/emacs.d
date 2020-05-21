@@ -1,4 +1,4 @@
-;;; init-ui.el - Handle UI tweaks for emacs -*- lexical-binding: t -*-
+;;; init-ui.el --- Handle UI tweaks for emacs -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  This handles things like disabling the toolbar, scrollbar, paren faces, etc
 ;;; Code:
@@ -18,12 +18,10 @@
 (custom-set-faces
  '(show-paren-match ((t (:underline 'foreground-color)))))
 
-;; Set font
-(set-face-attribute 'default nil
-		    :family "IBM Plex Mono"
-		    :height 110
-		    :weight 'normal
-		    :width 'normal)
+;; On mac make the titlebar the same color as the theme
+(jlgre/require 'ns-auto-titlebar)
+(when (equal system-type 'darwin)
+    (ns-auto-titlebar-mode))
 
 ;; Define a hook so that I can disable line numbers by mode
 (defun jlgre/no-linum ()
