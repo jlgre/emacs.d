@@ -1,0 +1,10 @@
+;;; init-flycheck.el --- Syntax checking support
+;;; Company:
+;;  Install flycheck for on the fly syntax checking
+;;; Code:
+(jlgre/require 'flycheck)
+
+(add-hook 'after-init-hook 'global-flycheck-mode)
+
+(provide 'init-flycheck)
+;;; init-flycheck.el ends here
