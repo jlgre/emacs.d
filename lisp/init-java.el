@@ -1,4 +1,4 @@
-;;; init-java.el --- Java configurations
+;;; init-java.el --- Java configurations -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  Configures lsp and dap mode
 ;;; Code:

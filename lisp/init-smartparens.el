@@ -1,4 +1,4 @@
-;;; init-smartparens.el --- Smart Parens configurations
+;;; init-smartparens.el --- Smart Parens configurations -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  Configures sp, and adds some keybindings I like
 ;;; Code:

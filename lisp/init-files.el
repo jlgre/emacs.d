@@ -1,4 +1,4 @@
-;;; init-files.el --- File modifications
+;;; init-files.el --- File modifications -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  Different files handling things
 ;;  Disables Emacs annoying things

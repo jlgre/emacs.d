@@ -1,4 +1,4 @@
-;;; init-exec-path-from-shell.el --- Emacs knows what my sys $PATH is
+;;; init-exec-path-from-shell.el --- Emacs knows what my sys $PATH is -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  Install exec-path-from-shell
 ;;; Code:

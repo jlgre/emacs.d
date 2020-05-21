@@ -1,4 +1,4 @@
-;;; init-markdown.el --- Markdown configuration
+;;; init-markdown.el --- Markdown configuration -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  Installs and configures markdown mode
 ;;; Code:

@@ -1,4 +1,4 @@
-;;; init-lsp.el --- LSP support for autocomplete
+;;; init-lsp.el --- LSP support for autocomplete -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  Add support for LSP
 ;;; Code:

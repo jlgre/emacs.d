@@ -1,4 +1,4 @@
-;;; init-ui.el - Handle UI tweaks for emacs
+;;; init-ui.el - Handle UI tweaks for emacs -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  This handles things like disabling the toolbar, scrollbar, paren faces, etc
 ;;; Code:

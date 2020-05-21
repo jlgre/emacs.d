@@ -1,4 +1,4 @@
-;;; init-web.el --- Web configurations - html/css mostly
+;;; init-web.el --- Web configurations - html/css mostly -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  Enables web mode
 ;;; Code:

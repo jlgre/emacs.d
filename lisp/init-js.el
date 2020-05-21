@@ -1,4 +1,4 @@
-;;; init-js.el --- Javascript support
+;;; init-js.el --- Javascript support -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  Configures js2-mode, prettier, and rjsx-mode
 ;;; Code:

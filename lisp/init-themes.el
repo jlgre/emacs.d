@@ -1,4 +1,4 @@
-;;; init-themes.el --- Theme configurations
+;;; init-themes.el --- Theme configurations -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  This installs themes, as well as sets up my current theme and a binding to toggle themes
 ;;; Code:

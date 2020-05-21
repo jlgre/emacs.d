@@ -1,4 +1,4 @@
-;;; init-diminish.el --- Dimish hides annoying modes
+;;; init-diminish.el --- Dimish hides annoying modes -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;; Code:
 (jlgre/require 'diminish)
@@ -9,6 +9,7 @@
 			     which-key-mode
 			     eldoc-mode
 			     prettier-mode
+			     auto-revert-mode
 			     company-mode))
 
 (dolist (package jlgre/hidden-modes)

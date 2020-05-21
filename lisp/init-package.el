@@ -1,4 +1,4 @@
-;;; init-package.el --- handle all package related things
+;;; init-package.el --- handle all package related things -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  Handles package installation and requiry
 ;;; Code:

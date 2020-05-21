@@ -1,4 +1,4 @@
-;;; init-latex.el --- LaTeX support
+;;; init-latex.el --- LaTeX support -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  Configures some latex nicities
 ;;; Code:

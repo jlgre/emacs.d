@@ -1,4 +1,4 @@
-;;; init-ivy.el --- Configures ivy to be nice
+;;; init-ivy.el --- Configures ivy to be nice -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  Enables ivy system-wide, adds some niceties
 ;;; Code:

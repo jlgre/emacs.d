@@ -1,4 +1,4 @@
-;;; init-magit.el --- Git management in emacs
+;;; init-magit.el --- Git management in emacs -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  Config magit
 ;;; Code:

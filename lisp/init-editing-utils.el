@@ -1,4 +1,4 @@
-;;; init-editing-utils.el --- Some useful configurations for editing
+;;; init-editing-utils.el --- Some useful configurations for editing -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  This includes some basic variable settings, as well as some helpful
 ;;  editing functions

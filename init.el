@@ -1,4 +1,4 @@
-;;; init.el --- My emacs init file, consists primarily of calls to other elisp files
+;;; init.el --- My emacs init file, consists primarily of calls to other elisp files -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  For adding features provide a file to ./lisp and require it here
 ;;; Code:

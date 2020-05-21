@@ -1,4 +1,4 @@
-;;; init-flycheck.el --- Syntax checking support
+;;; init-flycheck.el --- Syntax checking support -*- lexical-binding: t -*-
 ;;; Company:
 ;;  Install flycheck for on the fly syntax checking
 ;;; Code:

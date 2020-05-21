@@ -1,4 +1,4 @@
-;;; init-company.el --- Auto complete using company
+;;; init-company.el --- Auto complete using company -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  Installs and configures company
 ;;; Code:

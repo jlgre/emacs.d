@@ -1,4 +1,4 @@
-;;; init-which-key.el --- Helpfully display keybinds
+;;; init-which-key.el --- Helpfully display keybinds -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  Config which key
 ;;; Code:

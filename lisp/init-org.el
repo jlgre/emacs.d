@@ -1,4 +1,4 @@
-;;; init-org.el --- Org mode configuration
+;;; init-org.el --- Org mode configuration -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  This handles org config, org-babel, export to revealjs, etc
 ;;; Code:

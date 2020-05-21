@@ -1,4 +1,4 @@
-;;; init-racket.el --- Racket configurations
+;;; init-racket.el --- Racket configurations -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  Installs and configures racket-mode
 ;;; Code:

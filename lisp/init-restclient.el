@@ -1,4 +1,4 @@
-;;; init-restclient.el --- Rest client mode to make requests within emacs
+;;; init-restclient.el --- Rest client mode to make requests within emacs -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  Configs restclient mode, and completion for it
 ;;; Code:

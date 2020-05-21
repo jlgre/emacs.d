@@ -1,4 +1,4 @@
-;;; init-projectile.el --- Projectile for project management
+;;; init-projectile.el --- Projectile for project management -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  Configures projectile
 ;;; Code:

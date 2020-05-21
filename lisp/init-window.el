@@ -1,4 +1,4 @@
-;;; init-window.el --- Window configurations
+;;; init-window.el --- Window configurations -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  Contains things like ace-window and window resizing
 ;;; Code:
@@ -12,7 +12,7 @@
 
 ;; Stolen from github.com/purcell
 ;; Open new window with other-buffer and go there
-(defun purcell/split-window-func-with-other-buffer (split-function)
+(defun split-window-func-with-other-buffer (split-function)
   (lambda (&optional arg)
     "Split this window and switch to the new window unless ARG is provided."
     (interactive "P")
@@ -22,8 +22,8 @@
       (unless arg
         (select-window target-window)))))
 
-(global-set-key (kbd "C-x 2") (purcell/split-window-func-with-other-buffer 'split-window-vertically))
-(global-set-key (kbd "C-x 3") (purcell/split-window-func-with-other-buffer 'split-window-horizontally))
+(global-set-key (kbd "C-x 2") (split-window-func-with-other-buffer 'split-window-vertically))
+(global-set-key (kbd "C-x 3") (split-window-func-with-other-buffer 'split-window-horizontally))
 
 (provide 'init-window)
 ;;; init-window.el ends here

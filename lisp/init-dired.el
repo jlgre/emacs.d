@@ -1,4 +1,4 @@
-;;; init-dired.el --- Dired configuration
+;;; init-dired.el --- Dired configuration -*- lexical-binding: t -*-
 ;;; Commentary:
 ;;  Enables a in dired
 ;;; Code:
