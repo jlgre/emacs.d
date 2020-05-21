@@ -24,6 +24,7 @@
 (require 'init-projectile)
 (require 'init-magit)
 (require 'init-dired)
+(require 'init-search)
 
 (require 'init-lsp)
 (require 'init-flycheck)

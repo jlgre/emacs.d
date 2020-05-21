@@ -8,6 +8,7 @@
 			     counsel-mode
 			     which-key-mode
 			     eldoc-mode
+			     anzu-mode
 			     prettier-mode
 			     auto-revert-mode
 			     company-mode))

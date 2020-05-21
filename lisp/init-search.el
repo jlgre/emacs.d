@@ -7,7 +7,7 @@
 
 (jlgre/require 'anzu)
 
-(add-hook 'after-init-hook 'anzu)
+(add-hook 'after-init-hook 'global-anzu-mode)
 
 (provide 'init-search)
 ;;; init-search.el ends here
