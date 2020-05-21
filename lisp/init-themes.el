@@ -26,7 +26,8 @@
 
 (define-key jlgre/map (kbd "t") 'jlgre/cycle-theme)
 
-(jlgre/load-theme)
+(when (display-graphic-p)
+  (jlgre/load-theme))
 
 (provide 'init-themes)
 ;;; init-themes.el ends here
