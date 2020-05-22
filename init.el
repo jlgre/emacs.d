@@ -35,6 +35,7 @@
 (require 'init-racket)
 (require 'init-markdown)
 (require 'init-java)
+(require 'init-org)
 
 (require 'init-diminish) ;; this has to go last
 ;;; init.el ends here

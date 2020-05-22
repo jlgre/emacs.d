@@ -23,5 +23,5 @@
 (add-hook 'org-mode-hook 'jlgre/no-linum)
 (add-hook 'org-mode-hook 'jlgre/no-company)
 
-(provide 'init-org.el)
+(provide 'init-org)
 ;;; init-org.el ends here
