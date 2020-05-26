@@ -25,6 +25,7 @@
 (require 'init-magit)
 (require 'init-dired)
 (require 'init-search)
+(require 'init-eww)
 
 (require 'init-lsp)
 (require 'init-flycheck)
