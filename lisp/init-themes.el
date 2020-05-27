@@ -2,11 +2,11 @@
 ;;; Commentary:
 ;;  This installs themes, as well as sets up my current theme and a binding to toggle themes
 ;;; Code:
-(defvar jlgre/theme-packages '(doom-themes zenburn-theme faff-theme))
+(defvar jlgre/theme-packages '(doom-themes zenburn-theme faff-theme gruvbox-theme))
 (dolist (theme jlgre/theme-packages)
   (jlgre/require theme t))
 
-(defvar jlgre/themes '(doom-solarized-dark doom-solarized-light))
+(defvar jlgre/themes '(gruvbox-dark-hard gruvbox-light-hard))
 (defvar jlgre/themes-index 0)
 
 (defun jlgre/load-theme ()
