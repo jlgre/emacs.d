@@ -24,7 +24,7 @@
 (defvar jlgre/scale-on-mac t)
 
 (when (and jlgre/scale-on-mac (equal system-type 'darwin))
-  (setq jlgre/default-size (+ jlgre/default-size 30)))
+  (setq jlgre/default-size (+ jlgre/default-size 40)))
 
 (set-face-attribute 'default nil
 		    :family jlgre/default-font
