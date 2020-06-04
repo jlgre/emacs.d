@@ -26,6 +26,7 @@
 (require 'init-dired)
 (require 'init-search)
 (require 'init-eww)
+(require 'init-password)
 
 (require 'init-lsp)
 (require 'init-flycheck)

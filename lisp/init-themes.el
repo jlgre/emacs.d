@@ -6,7 +6,7 @@
 (dolist (theme jlgre/theme-packages)
   (jlgre/require theme t))
 
-(defvar jlgre/themes '(gruvbox-dark-hard gruvbox-light-soft))
+(defvar jlgre/themes '(sanityinc-tomorrow-bright sanityinc-tomorrow-day))
 (defvar jlgre/themes-index 0)
 
 (defun jlgre/load-theme ()
