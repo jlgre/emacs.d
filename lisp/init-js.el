@@ -9,16 +9,16 @@
 (dolist (pack jlgre/js-packages)
   (jlgre/require pack))
 
-(with-eval-after-load 'prettier-js
-  (setq prettier-js-args
-	'("--tab-width" "4"
-	  "--single-quote" "true")))
-
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
 (add-to-list 'auto-mode-alist '("\\.component.js\\' . rjsx-mode"))
 
-(add-hook 'js2-mode-hook 'prettier-js-mode)
-(add-hook 'web-mode-hook 'prettier-js-mode)
+(defun jlgre/maybe-use-prettier ()
+  "Enable prettier-js-mode if an rc file is located."
+  (if (locate-dominating-file default-directory ".prettierrc")
+      (prettier-js-mode +1)))
+
+(add-hook 'js2-mode-hook 'maybe-use-prettier)
+(add-hook 'web-mode-hook 'maybe-use-prettier)
 
 (provide 'init-js)
 ;;; init-js.el ends here
