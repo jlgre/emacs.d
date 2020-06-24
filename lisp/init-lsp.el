@@ -11,7 +11,8 @@
 (defvar jlgre/lsp-langs '(python-mode-hook
 			  c-mode-hook
 			  js2-mode-hook
-			  java-mode-hook))
+			  java-mode-hook
+			  php-mode-hook))
 
 (dolist (lang jlgre/lsp-langs)
   (add-hook lang #'lsp))

@@ -32,8 +32,10 @@
 
 (require 'init-lsp)
 (require 'init-flycheck)
+(require 'init-dj)
 
 (require 'init-js)
+(require 'init-vue)
 (require 'init-latex)
 (require 'init-web)
 (require 'init-racket)
