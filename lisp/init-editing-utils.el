@@ -27,5 +27,7 @@
 (jlgre/require 'evil-nerd-commenter)
 (evilnc-default-hotkeys)
 
+(electric-pair-mode)
+
 (provide 'init-editing-utils)
 ;;; init-editing-utils ends here

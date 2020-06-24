@@ -11,11 +11,11 @@
 
 (require 'init-files)
 
+(require 'init-themes)
 (require 'init-ui)
 (require 'init-window)
 (require 'init-editing-utils)
 (require 'init-exec-path-from-shell)
-(require 'init-themes)
 (require 'init-which-key)
 (require 'init-ivy)
 (require 'init-company)
@@ -26,7 +26,9 @@
 (require 'init-dired)
 (require 'init-search)
 (require 'init-eww)
+(require 'init-elfeed)
 (require 'init-password)
+(require 'init-mail)
 
 (require 'init-lsp)
 (require 'init-flycheck)

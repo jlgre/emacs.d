@@ -20,11 +20,11 @@
 
 ;; Font
 (defvar jlgre/default-font "Source Code Pro")
-(defvar jlgre/default-size 110)
+(defvar jlgre/default-size 130)
 (defvar jlgre/scale-on-mac t)
 
 (when (and jlgre/scale-on-mac (equal system-type 'darwin))
-  (setq jlgre/default-size (+ jlgre/default-size 40)))
+  (setq jlgre/default-size (+ jlgre/default-size 20)))
 
 (set-face-attribute 'default nil
 		    :family jlgre/default-font
@@ -33,13 +33,16 @@
 		    :width 'normal)
 
 ;; On mac make the titlebar the same color as the theme
-(jlgre/require 'ns-auto-titlebar)
 (when (equal system-type 'darwin)
-    (ns-auto-titlebar-mode))
+  (jlgre/require 'ns-auto-titlebar)
+  (ns-auto-titlebar-mode))
 
 ;; Define a hook so that I can disable line numbers by mode
 (defun jlgre/no-linum ()
   (display-line-numbers-mode -1))
+
+(jlgre/require 'doom-modeline)
+(doom-modeline-mode 1)
 
 (provide 'init-ui)
 ;;; init-ui.el ends here

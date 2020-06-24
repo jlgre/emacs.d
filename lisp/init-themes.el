@@ -2,11 +2,12 @@
 ;;; Commentary:
 ;;  This installs themes, as well as sets up my current theme and a binding to toggle themes
 ;;; Code:
-(defvar jlgre/theme-packages '(doom-themes zenburn-theme faff-theme gruvbox-theme))
+(defvar jlgre/theme-packages '(doom-themes zenburn-theme faff-theme gruvbox-theme color-theme-sanityinc-tomorrow))
 (dolist (theme jlgre/theme-packages)
   (jlgre/require theme t))
 
-(defvar jlgre/themes '(sanityinc-tomorrow-bright sanityinc-tomorrow-day))
+(defvar jlgre/themes '(doom-acario-dark
+		       doom-acario-light))
 (defvar jlgre/themes-index 0)
 
 (defun jlgre/load-theme ()
