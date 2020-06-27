@@ -6,8 +6,8 @@
 (dolist (theme jlgre/theme-packages)
   (jlgre/require theme t))
 
-(defvar jlgre/themes '(doom-acario-dark
-		       doom-acario-light))
+(defvar jlgre/themes '(tsdh-light
+		       tsdh-dark))
 (defvar jlgre/themes-index 0)
 
 (defun jlgre/load-theme ()

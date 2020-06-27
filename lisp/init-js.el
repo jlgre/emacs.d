@@ -14,11 +14,11 @@
 
 (defun jlgre/maybe-use-prettier ()
   "Enable prettier-js-mode if an rc file is located."
-  (if (locate-dominating-file default-directory ".prettierrc")
+  (if (locate-dominating-file default-directory ".prettierrc.json")
       (prettier-js-mode +1)))
 
-(add-hook 'js2-mode-hook 'maybe-use-prettier)
-(add-hook 'web-mode-hook 'maybe-use-prettier)
+(add-hook 'js2-mode-hook 'jlgre/maybe-use-prettier)
+(add-hook 'web-mode-hook 'jlgre/maybe-use-prettier)
 
 (provide 'init-js)
 ;;; init-js.el ends here
