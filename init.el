@@ -8,8 +8,8 @@
 (require 'init-package)
 
 (require 'init-keymaps)
-
 (require 'init-files)
+(require 'init-scratch)
 
 (require 'init-themes)
 (require 'init-ui)
@@ -36,6 +36,7 @@
 
 (require 'init-js)
 (require 'init-vue)
+(require 'init-python)
 (require 'init-latex)
 (require 'init-web)
 (require 'init-racket)

@@ -9,11 +9,11 @@
 	org-confirm-babel-evaluate nil
 	org-log-done 'time)
 
-  ;; Org-babel config
-  (org-babel-do-load-languages
-   'org-babel-do-load-languages
-   '((python . t)
-     (C . t))))
+;; Org-babel config
+(org-babel-do-load-languages
+ 'org-babel-do-load-languages
+ '((python . t)
+   (C . t))))
 
 ;; Enable export to revealjs in org mode
 (jlgre/require 'ox-reveal)

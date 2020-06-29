@@ -10,5 +10,7 @@
 (add-to-list 'auto-mode-alist '("\\.php\\'" . php-mode))
 (add-to-list 'auto-mode-alist '("\\.blade.php\\'" . web-mode))
 
+(add-hook 'php-mode-hook #'lsp)
+
 (provide 'init-php)
 ;;; init-php.el ends here

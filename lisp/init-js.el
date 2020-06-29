@@ -18,7 +18,10 @@
       (prettier-js-mode +1)))
 
 (add-hook 'js2-mode-hook 'jlgre/maybe-use-prettier)
+(add-hook 'js2-mode-hook #'lsp)
 (add-hook 'web-mode-hook 'jlgre/maybe-use-prettier)
+(add-hook 'rjsx-mode-hook 'jlgre/maybe-use-prettier)
+(add-hook 'rjsx-mode-hook #'lsp)
 
 (provide 'init-js)
 ;;; init-js.el ends here
