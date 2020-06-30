@@ -5,7 +5,12 @@
 (jlgre/require 'magit)
 
 (with-eval-after-load 'magit
-  (define-key jlgre/map (kbd "g") 'magit-status))
+  (setq magit-display-buffer-function #'magit-display-buffer-fullframe-status-v1)
+  (general-define-key
+   :states 'normal
+   :keymaps 'override
+   :prefix "SPC"
+   "g" 'magit-status))
 
 (provide 'init-magit)
 ;;; init-magit.el ends here

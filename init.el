@@ -7,9 +7,13 @@
 
 (require 'init-package)
 
+(require 'init-evil)
+
 (require 'init-keymaps)
 (require 'init-files)
 (require 'init-scratch)
+
+(require 'init-keybindings)
 
 (require 'init-themes)
 (require 'init-ui)

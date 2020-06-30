@@ -7,7 +7,15 @@
   (jlgre/require package))
 
 (with-eval-after-load 'projectile
-  (define-key jlgre/map (kbd "p") 'projectile-command-map))
+  (counsel-projectile-modify-action
+   'counsel-projectile-switch-project-action
+   '((default counsel-projectile-switch-project-action-vc)))
+  (general-define-key
+   :states 'normal
+   :keymaps 'override
+   :prefix "SPC"
+   "p" 'projectile-command-map
+   "*" 'projectile-ripgrep))
 
 (add-hook 'after-init-hook 'projectile-mode)
 (add-hook 'after-init-hook 'counsel-projectile-mode)

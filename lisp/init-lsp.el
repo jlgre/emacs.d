@@ -6,7 +6,10 @@
 
 (with-eval-after-load 'lsp-mode
   (setq lsp-signature-auto-activate nil)
-  (define-key jlgre/map (kbd "l") lsp-command-map))
+  (general-define-key
+   :states 'normal
+   :prefix "SPC"
+   "l" 'lsp-command-map))
 
 (add-hook 'lsp-mode 'lsp-enable-which-key-integration)
 
