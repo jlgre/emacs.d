@@ -29,7 +29,12 @@
       (setq jlgre/themes-index (+ jlgre/themes-index 1))
       (jlgre/load-theme))))
 
-(define-key jlgre/map (kbd "t") 'jlgre/cycle-theme)
+(general-define-key
+ :states 'normal
+ :keymaps 'override
+ :prefix "SPC"
+ "tt" 'jlgre/cycle-theme
+ "tl" 'counsel-load-theme)
 
 (when (display-graphic-p)
   (jlgre/load-theme))

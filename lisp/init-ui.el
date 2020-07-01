@@ -13,6 +13,12 @@
 (set-default 'truncate-lines t)
 (fset 'yes-or-no-p 'y-or-n-p)
 
+;; Smooth Scrolling
+(setq mouse-wheel-scroll-amount '(1 ((shift) . 1))) ;; one line at a time
+(setq mouse-wheel-progressive-speed nil) ;; don't accelerate scrolling
+(setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
+(setq scroll-step 1) ;; keyboard scroll one line at a time
+
 ;; Paren settings
 (show-paren-mode 1)
 (setq show-paren-delay 0)
@@ -22,7 +28,7 @@
 ;; Font
 (defvar jlgre/default-font "Source Code Pro")
 (defvar jlgre/default-size 130)
-(defvar jlgre/scale-on-mac t)
+(defvar jlgre/scale-on-mac nil)
 
 (when (and jlgre/scale-on-mac (equal system-type 'darwin))
   (setq jlgre/default-size (+ jlgre/default-size 20)))
@@ -44,6 +50,7 @@
 
 (jlgre/require 'doom-modeline)
 (doom-modeline-mode 1)
+(setq doom-modeline-modal-icon nil)
 
 (provide 'init-ui)
 ;;; init-ui.el ends here

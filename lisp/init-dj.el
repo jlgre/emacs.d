@@ -6,7 +6,7 @@
 
 (add-hook 'lsp-mode-hook
 	  (lambda ()
-	    (dump-jump-mode)))
+	    (dumb-jump-mode)))
 
 (provide 'init-dj)
 ;;; init-dj.el ends here

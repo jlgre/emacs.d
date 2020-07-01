@@ -29,5 +29,9 @@
 
 (electric-pair-mode)
 
+(defun jlgre/tab-buffer ()
+  (interactive)
+  (switch-to-prev-buffer))
+
 (provide 'init-editing-utils)
 ;;; init-editing-utils ends here

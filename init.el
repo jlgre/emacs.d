@@ -30,9 +30,10 @@
 (require 'init-dired)
 (require 'init-search)
 (require 'init-eww)
-(require 'init-elfeed)
+;; (require 'init-elfeed)
 (require 'init-password)
-(require 'init-mail)
+;; (require 'init-mail)
+(require 'init-treemacs)
 
 (require 'init-lsp)
 (require 'init-flycheck)

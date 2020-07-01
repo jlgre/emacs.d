@@ -7,15 +7,17 @@
 (jlgre/require 'general)
 
 ;; Remap: up-down in company
-;;       up-down in ivy
+;;        up-down in ivy
 ;; To: C-j/k
 (with-eval-after-load 'company
   (define-key company-active-map (kbd "C-j") 'company-select-next)
   (define-key company-active-map (kbd "C-k") 'company-select-previous))
 
 (with-eval-after-load 'ivy
-  (define-key ivy-minibuffer-map (kbd "C-j") #'ivy-next-line)
-  (define-key ivy-minibuffer-map (kbd "C-k") #'ivy-previous-line))
+  (general-define-key
+   :keymaps 'ivy-minibuffer-map
+   "C-j" #'ivy-next-line
+   "C-k" #'ivy-previous-line))
 
 (general-define-key
  :states 'normal
@@ -34,6 +36,7 @@
  "bb" 'ivy-switch-buffer
  "bd" 'kill-this-buffer
  "bD" 'kill-buffer
+ "TAB" 'jlgre/tab-buffer
  ;; files
  "ff" 'counsel-find-file
  "fr" 'rename-file
