@@ -10,8 +10,8 @@
 (dolist (theme jlgre/theme-packages)
   (jlgre/require theme t))
 
-(defvar jlgre/themes '(spacemacs-light
-		       spacemacs-dark))
+(defvar jlgre/themes '(doom-gruvbox
+		       doom-gruvbox-light))
 (defvar jlgre/themes-index 0)
 
 (defun jlgre/load-theme ()

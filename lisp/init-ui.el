@@ -27,7 +27,7 @@
 
 ;; Font
 (defvar jlgre/default-font "Source Code Pro")
-(defvar jlgre/default-size 130)
+(defvar jlgre/default-size 120)
 (defvar jlgre/scale-on-mac nil)
 
 (when (and jlgre/scale-on-mac (equal system-type 'darwin))
