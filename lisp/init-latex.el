@@ -7,11 +7,11 @@
 (add-to-list 'auto-mode-alist '("\\.tex\\'" . LaTeX-mode))
 (add-hook 'LaTeX-mode-hook 'jlgre/no-company)
 
-(setq font-latex-fontift-script nil)
+(setq font-latex-fontify-script nil)
 
 (with-eval-after-load "tex"
-  (add-to-list 'TeX-view-program-list '("evince" "/usr/bin/okular %o"))
-  (setcdr (assq 'output-pdf TeX-view-program-selection) '("evince")))
+  (add-to-list 'TeX-view-program-list '("zathura" "/usr/bin/zathura %o"))
+  (setcdr (assq 'output-pdf TeX-view-program-selection) '("zathura")))
 
 (provide 'init-latex)
 ;;; init-latex.el ends here
